@@ -1,0 +1,25 @@
+{
+    "name": "asxxxx-cross-assembler-and-linker",
+    "displayName": "ASxxxx Cross Assembler and Linker",
+    "description": "Language support for the ASxxxx Cross Assembler and Linker",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.59.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "as",
+            "aliases": ["ASxxxx", "as"],
+            "extensions": [".s .asm"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "as",
+            "scopeName": "source.asxxxx",
+            "path": "./syntaxes/as.tmLanguage.json"
+        }]
+    }
+}
