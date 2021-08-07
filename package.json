@@ -10,16 +10,25 @@
         "Programming Languages"
     ],
     "contributes": {
-        "languages": [{
-            "id": "as",
-            "aliases": ["ASxxxx", "as"],
+        "languages": [
+        {
+            "id": "as1802",
+            "aliases": [ "RCA 1802 (AS1802)" ],
             "extensions": [".s .asm"],
             "configuration": "./language-configuration.json"
         }],
-        "grammars": [{
-            "language": "as",
-            "scopeName": "source.asxxxx",
-            "path": "./syntaxes/as.tmLanguage.json"
+        "grammars": [
+        {
+            "language": "as1802",
+            "scopeName": "source.as1802",
+            "path": "./syntaxes/as1802.tmLanguage.json"
+        },
+        {
+            "scopeName": "directives.asxxxx",
+            "path": "./syntaxes/ASxxxxDirectives.tmLanguage.json",
+            "injectTo": [
+                "source.as1802"
+            ]
         }]
     }
 }

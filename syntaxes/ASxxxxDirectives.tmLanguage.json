@@ -1,0 +1,78 @@
+{
+  "name": "ASxxxxDirectives",
+  "injectionSelector": "R:source",
+  "patterns": [
+      { "include": "#comments" },
+      { "include": "#symbols" },
+      { "include": "#strings" },
+      { "include": "#directives" },
+      { "include": "#operators" }
+  ],
+  "repository": {
+    "comments":
+    {
+      "name": "comment.line.directives",
+      "match": "[;\\*].*$"
+    },
+    "strings":
+    {
+      "name": "string.quoted.double.directives",
+      "begin": "\"",
+      "end": "\"",
+      "patterns": [
+      {
+        "name": "constant.character.escape.directives",
+        "match": "\\\\."
+      }
+      ]
+    },
+    "symbols":
+    {
+      "patterns": [
+      {
+        "name": "entity.name.function.label.directives",
+        "match": "^\\$?[A-Za-z\\._][A-Za-z0-9\\$\\._]*(?=(\\:{0,2}))"
+      },
+      {
+        "name": "constant.numeric.hex.directives",
+        "match": "(\\$\\$|0[hHxX])[a-fA-F0-9]+"
+      },
+      {
+        "name": "constant.numeric.binary.directives",
+        "match": "(\\$\\%|0[bB])[01]+"
+      },
+      {
+        "name": "constant.numeric.octal.directives",
+        "match": "(\\$\\&|0[oOqQ])[0-7]+"
+      },
+      {
+        "name": "constant.numeric.decimal.directives",
+        "match": "(\\$\\#|0[dD])[0-9]+"
+      }
+      ]
+    },
+    "directives":
+    {
+       "patterns": [
+        {
+          "name": "support.function.pseudo.directives",
+          "match": "\\.\\b(?i)(module|title|sbttl|n?list|page|msg|error|byte|db|fcb|word|dw|fdb|3byte|triple|4byte|quad|blkb|ds|rmb|rs|blkw|blk3|blk4|ascii|str|fcc|ascis|strs|asciz|strz|assume|radix|even|odd|bndry|area|bank|org|globl|local|equ|gblequ|lclequ|incbin|include|define|undefine|setdp|16bit|24bit|32bit|msb|lohi|hilo|end)\\b"
+        },
+        {
+          "name": "keyword.control.conditional.directives",
+          "match": "\\.\\b(?i)(if|else|endif|iff|ift|iftf|ifxx|ifn?def|ifn?b|ifidn|ifdif)\\b"
+        },
+        {
+          "name": "support.function.pseudo.directives",
+          "match": "\\.\\b(?i)(macro|endm|mexit|narg|nchr|ntyp|nval|irpc?|rept|mdelete)\\b"
+        }
+        ]
+    },
+    "operators":
+    {
+      "name": "keyword.operator.as1802",
+      "match":  "=|==|=:|\\#|\\.|\\<<?|\\>>?|\\+|\\-|\\~|\\*|\\/|&|\\||\\%|\\^|\""
+    }
+  },
+  "scopeName": "directives.asxxxx"
+}
