@@ -1,0 +1,18 @@
+{
+  "name": "AS1802",
+  "patterns": [
+    { "include": "#opcodes" }
+  ],
+  "repository": {
+    "opcodes":
+    {
+      "patterns": [
+      {
+        "name": "keyword.mnemonic.as1802",
+        "match": "\\b(?i)(adci?|add|and|adi|ani|bn?[1-4]|bdf|l?bn?[fqz]|l?br|dec|dis|ghi|glo|idl|inc|inp|irx|lbdf|lda|ldi|ldn|ldx|ldxa|lsdf|lsie|lskp|lsn?[fqz]|mark|nop|ori?|out|phi|plo|re[qt]|sav|sdb?i?|se[pq]|sex|sh[lr]c?|skp|smb?i?|str|stxd|xor|xri)\\b"
+      }
+      ]
+    }
+  },
+  "scopeName": "source.as1802"
+}

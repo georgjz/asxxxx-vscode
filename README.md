@@ -1,3 +1,11 @@
+
+## Known Bugs/Problems
+
+* Strings can be delimited with and printing character; but this extension will only highlight strings delimited by single (`'`) or double (`"`) quotes. Manual and issue reference
+
+
+
+
 # asxxxx-cross-assembler-and-linker README
 
 This is the README for your extension "asxxxx-cross-assembler-and-linker". After writing up a brief description, we recommend including the following sections.
