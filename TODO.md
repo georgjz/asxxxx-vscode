@@ -1,0 +1,53 @@
+# Glorious List of Things To Do
+
+- [ ] Common Directives
+- [ ] Linker directives
+
+## List of Supported Architectures
+
+- [ ] 1802
+- [ ] S2650
+- [ ] SC/MP
+- [ ] MPS430
+- [ ] 6100
+- [ ] 61860
+- [ ] 6500
+- [ ] 6800
+  - [ ] 6802
+  - [ ] 6808
+- [ ] 6801
+  - [ ] 6803
+  - [ ] HD6303
+- [ ] 6804
+- [ ] 6805
+- [ ] 68HC(S)08
+- [ ] 6809
+- [ ] 68HC11
+- [ ] 68HC(S)12
+- [ ] 68HC16
+- [ ] 740
+- [ ] 78K/0
+- [ ] 78K/0S
+- [ ] 8008
+- [ ] 8008S
+- [ ] 8048(8041/8022/8021)
+- [ ] 8051
+- [ ] 8085(8080)
+- [ ] AT89LP
+- [ ] 8X300(8X305)
+- [ ] DS8XCXXX
+- [ ] AVR
+- [ ] EZ80
+- [ ] F2MC8L/FX
+- [ ] F8/3870
+- [ ] Gameboy(Z80)
+- [ ] H8/3xx
+- [ ] Cypress PSoc(M8C)
+- [ ] PIC
+- [ ] Rabbit 2000/3000
+- [ ] ST6
+- [ ] ST7
+- [ ] ST8
+- [ ] Z8
+- [ ] Z80(HD64180)
+- [ ] Z280
