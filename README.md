@@ -9,6 +9,7 @@ ASxxxx is a great toolchain just open-sourced in March 2021 by [Alan R. Baldwin]
 ASxxxx is a collection of assemblers for varying architectures. I'll be adding support for all assemblers included. This is a list of all currently supported architectures (assemblers):
 
 * 1802 (as1802)
+* Z80 (asz80)
 
 ## Known Bugs/Problems
 

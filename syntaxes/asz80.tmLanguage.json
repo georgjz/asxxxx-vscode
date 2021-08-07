@@ -1,0 +1,22 @@
+{
+  "name": "ASZ80",
+  "patterns": [
+    { "include": "#opcodes" }
+  ],
+  "repository": {
+    "opcodes":
+    {
+      "patterns": [
+      {
+        "name": "keyword.mnemonic.asz80",
+        "match": "\\b(?i)(adc|add|bit|call|ccf|cp|cp[di]r?|cpl|daa|dec|di|djnz|ei|exx?|halt|i[mn]|inc|in[di]r?|j[pr]|ld|lddr?|ldir?|mulub|muluw|neg|nop|or|ot[di]r|out[di]?|pop|push|re[st]|ret[in]|rl[ac]?|rr[adc]?|rrca|rst|sbc|scf|set|sla|srl|sub|xor)\\b"
+      },
+      {
+        "name": "variable.language.register.asz80",
+        "match": "\\b(?i)(af?|bc?|c|de?|e|hl?|l|i[xy]|sp|i|r|l|n?c|m|p[eo]?|n?z)\\b"
+      }
+      ]
+    }
+  },
+  "scopeName": "source.asz80"
+}

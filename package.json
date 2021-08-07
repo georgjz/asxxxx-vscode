@@ -22,6 +22,12 @@
             "aliases": ["RCA 1802 (AS1802)"],
             "extensions": [".s .asm"],
             "configuration": "./language-configuration.json"
+        },
+        {
+            "id": "asz80",
+            "aliases": ["Zilog Z80 (ASZ80)"],
+            "extensions": [".s .asm"],
+            "configuration": "./language-configuration.json"
         }],
         "grammars": [
         {
@@ -30,10 +36,16 @@
             "path": "./syntaxes/as1802.tmLanguage.json"
         },
         {
+            "language": "asz80",
+            "scopeName": "source.asz80",
+            "path": "./syntaxes/asz80.tmLanguage.json"
+        },
+        {
             "scopeName": "directives.asxxxx",
             "path": "./syntaxes/ASxxxxDirectives.tmLanguage.json",
             "injectTo": [
-                "source.as1802"
+                "source.as1802",
+                "source.asz80"
             ]
         }]
     }
