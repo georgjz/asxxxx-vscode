@@ -2,12 +2,12 @@
     "name": "asxxxx-cross-assembler-and-linker",
     "displayName": "ASxxxx Cross Assembler and Linker",
     "description": "Language support for the ASxxxx Cross Assembler and Linker",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "publisher": "clcxce",
     "icon": "asxxxx.gif",
     "repository": {
-      "url": "https://github.com/georgjz/asxxxx-vscode",
-      "type": "git"
+        "url": "https://github.com/georgjz/asxxxx-vscode",
+        "type": "git"
     },
     "engines": {
         "vscode": "^1.59.0"
@@ -17,36 +17,46 @@
     ],
     "contributes": {
         "languages": [
-        {
-            "id": "as1802",
-            "aliases": ["RCA 1802 (AS1802)"],
-            "extensions": [".s .asm"],
-            "configuration": "./language-configuration.json"
-        },
-        {
-            "id": "asz80",
-            "aliases": ["Zilog Z80 (ASZ80)"],
-            "extensions": [".s .asm"],
-            "configuration": "./language-configuration.json"
-        }],
+            {
+                "id": "as1802",
+                "aliases": [
+                    "RCA 1802 (AS1802)"
+                ],
+                "extensions": [
+                    ".s .asm"
+                ],
+                "configuration": "./language-configuration.json"
+            },
+            {
+                "id": "asz80",
+                "aliases": [
+                    "Zilog Z80 (ASZ80)"
+                ],
+                "extensions": [
+                    ".s .asm"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
         "grammars": [
-        {
-            "language": "as1802",
-            "scopeName": "source.as1802",
-            "path": "./syntaxes/as1802.tmLanguage.json"
-        },
-        {
-            "language": "asz80",
-            "scopeName": "source.asz80",
-            "path": "./syntaxes/asz80.tmLanguage.json"
-        },
-        {
-            "scopeName": "directives.asxxxx",
-            "path": "./syntaxes/ASxxxxDirectives.tmLanguage.json",
-            "injectTo": [
-                "source.as1802",
-                "source.asz80"
-            ]
-        }]
+            {
+                "language": "as1802",
+                "scopeName": "source.as1802",
+                "path": "./syntaxes/as1802.tmLanguage.json"
+            },
+            {
+                "language": "asz80",
+                "scopeName": "source.asz80",
+                "path": "./syntaxes/asz80.tmLanguage.json"
+            },
+            {
+                "scopeName": "directives.asxxxx",
+                "path": "./syntaxes/ASxxxxDirectives.tmLanguage.json",
+                "injectTo": [
+                    "source.as1802",
+                    "source.asz80"
+                ]
+            }
+        ]
     }
 }
