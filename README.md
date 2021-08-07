@@ -1,73 +1,27 @@
+# ASxxxx Cross Assembler and Linker
+
+This is a Language Extension for [Visual Studio Code][vsc]. It adds syntax highlighting for the [ASxxxx Cross Assember and Linker][asxxxx].
+
+ASxxxx is a great toolchain just open-sourced in March 2021 by [Alan R. Baldwin][arb].
+
+## Supported Assemblers
+
+ASxxxx is a collection of assemblers for varying architectures. I'll be adding support for all assemblers included. This is a list of all currently supported architectures (assemblers):
+
+* 1802 (as1802)
 
 ## Known Bugs/Problems
 
-* Strings can be delimited with and printing character; but this extension will only highlight strings delimited by single (`'`) or double (`"`) quotes. Manual and issue reference
+* Strings can be delimited with and printing character; but this extension will only highlight strings delimited by double-qoutes (`"`). See [page 1-21 of the manual][asxxxxman].
+
+## Contributions
+
+Contributions are highly encouraged and welcomed! If you find something amiss or a bug, please [submit an issue][iss] and I'll do my best to fix it.
 
 
-
-
-# asxxxx-cross-assembler-and-linker README
-
-This is the README for your extension "asxxxx-cross-assembler-and-linker". After writing up a brief description, we recommend including the following sections.
-
-## Features
-
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
-
-For example if there is an image subfolder under your extension project workspace:
-
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
-
-## Requirements
-
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
-
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
------------------------------------------------------------------------------------------------------------
-
-## Working with Markdown
-
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
+[vsc]: https://code.visualstudio.com
+[asxxxx]: https://shop-pdp.net/ashtml/asxxxx.php
+[arb]: https://shop-pdp.net/baldwi.htm
+[iss]: https://github.com/georgjz/asxxxx-vscode/issues
 **Enjoy!**
+

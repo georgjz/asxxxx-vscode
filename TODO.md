@@ -1,11 +1,11 @@
 # Glorious List of Things To Do
 
-- [ ] Common Directives
+- [x] Common Directives
 - [ ] Linker directives
 
 ## List of Supported Architectures
 
-- [ ] 1802
+- [x] 1802
 - [ ] S2650
 - [ ] SC/MP
 - [ ] MPS430
