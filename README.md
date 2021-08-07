@@ -22,6 +22,7 @@ Contributions are highly encouraged and welcomed! If you find something amiss or
 
 [vsc]: https://code.visualstudio.com
 [asxxxx]: https://shop-pdp.net/ashtml/asxxxx.php
+[asxxxxman]: https://shop-pdp.net/ashtml/asmlnk.pdf
 [arb]: https://shop-pdp.net/baldwi.htm
 [iss]: https://github.com/georgjz/asxxxx-vscode/issues
 **Enjoy!**
